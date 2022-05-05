@@ -162,3 +162,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
