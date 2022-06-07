@@ -40,7 +40,6 @@ div {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 300px;
 }
 h1, h2, h3, h5, h6 {
     font-family: var(--heading-font);
@@ -124,7 +123,7 @@ p {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 100px;
+    margin-top: 0;
 }
 #hero-box {
     grid-column: 1/4;
@@ -143,13 +142,17 @@ p {
 #hero-img {
     width: 100%;
 }
-
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr 1fr 3fr 1fr 1fr 1fr;
+}
 main section {
     text-align: center;
     font-family: var(--heading-font);
 }
 main section img {
-    box-sizing: border-box;
+    box-sizing:content-box;
 }
 .colors {
     width: 100%;
@@ -318,14 +321,15 @@ ul {
     grid-row-end: 3;
 }
 .camping-card {
-    margin: 200px 0;
+    margin-top: 200px;
+    margin-left: 100px;
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 .rapids-card {
-    margin: 200px 0;
+    margin: 200px;
     grid-column-start: 8;
     grid-column-end: 10;
     grid-row-start: 2;
