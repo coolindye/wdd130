@@ -47,7 +47,7 @@ h1, h2, h3, h5, h6 {
 }
 h4 {
     font-family: var(--heading-font);
-    color: #e29578;
+    color: #050200;
 }
 h3 {
     text-decoration: underline;
