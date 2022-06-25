@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Optimal Health | Physical</title>
+        <title>Optimal Health | Trending</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/personalStyle.css">
     </head>
@@ -23,42 +23,101 @@
             </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
             </div>
             <section id="hero-msg">
-                <h1 class="home-title">Have An Adventure</h1>
-                <h4 class="home-title">Make Memories with Dry Oar </h4>
+                <h1 class="home-title"> Physical</h1>
+                <div class="centered">
+                    <section class="cards">  
+                        <article class="card">
+                        <p font="--paragraph-font" ><strong>Processed Meat, Not Simply Meat</strong><br><br> A recent study has found that a popular type of processed meat may be linked to an increased risk of heart disease.
+                            <br><br>
+                            The study, which was published in the journal BMC Medicine, looked at data from over 1,600 adults in the UK. The participants were asked about their consumption of processed meats, such as bacon, sausage, and ham, as well as their overall health.
+                            <br><br>
+                            The findings showed that those who ate the most processed meats had a 72% higher risk of developing heart disease than those who ate the least. The results were even higher for those who ate processed meats that were high in fat and salt.
+                            <br><br>
+                            While the study does not prove that processed meats cause heart disease, it does add to the growing body of evidence that suggests there may be a link. This is a concern because processed meats are a major source of dietary salt and fat, which are known risk factors for heart disease.
+                            <br><br>
+                            If you are concerned about your risk of heart disease, you may want to limit your consumption of processed meats. You can also choose leaner, less processed meats, such as chicken or fish.</p>
+                        </article><!-- /card-one -->
+                        <img src="images/physical2.jpg" alt="card__image" width="50%">
+                    </section>
+                </div>
                 <div class='button-box'>
-                    <a class='book' href="rates.html">Book Now</a>
+                    <a href="trending.html">Read More</a>
                 </div>
             </section>
         </div>
+            
+        </div>
         <main class="container">
-            <section class="rivers-card">
-                <img class="card-img" src="images/rivers.jpg" alt="river in forest">
-                <img class="icon" src="images/river_icon.png" alt="river icon">
-                <h2>Rivers</h2>
-            </section>
-            <section class="camping-card">
-                <img class="card-img" src="images/camping.jpg" alt="tent in mountains">
-                <img class="icon" src="images/fire_icon.png" alt="fire icon">
-                <h2>Camping</h2>
-            </section>
-            <section class="rapids-card">
-                <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-                <img class="icon" src="images/oars.png" alt="oars icon">
-                <h2>Rapids</h2>
-            </section>
-            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-            <section class="msg">
-                <h2>More Than Just The Thrill</h2>
-                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-                <a class='join' href="rivers.html">Join Us</a>
-            </section>
+            <div class="card">
+                <div class="card__body">
+                <span class="tag tag-blue">diet</span>
+                <h4>Diet</h4>
+                <p>
+                    <ul list-style-type ="circle">
+                        <li>Macronutrients</li>
+                        <li>Calories</li>
+                        <li>Clean Eating</li>
+                    </ul>
+                </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__body">
+                <span class="tag tag-brown">Fitness</span>
+                <h4>Fitness</h4>
+                <p>
+                    <ul>
+                        <li>Resitence training</li>
+                        <li>Cardio</li>
+                        <li>Yoga</li>
+                        <li>Pilates</li>
+                    </ul>
+                </p>
+                </div>
+            </div>
+            </div>
+            <div class="card">
+                <div class="card__body">
+                <span class="tag tag-red">sleep</span>
+                <h4>Sleep</h4>
+                <p>
+                    <ul>
+                        <li>Routine</li>
+                        <li>Supplementation</li>
+                    </ul>
+                </p>
+                </div>
+            </div>
+            <h1 class="contact">Contact Us</h1>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                  </li>
+                  <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                  <li class="button">
+                  <button type="submit">Send your message</button>
+                  </li>
+                </ul>
+            </form>
+        </div>
         </main>
         <footer>
-            <h3>Dry Oar &copy; 2022 - Colin Dye</h3>
-            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3>Optimal Health &copy; 2022 - Colin Dye</h3>
+            <h3><a href="homepage.html">Home</a></h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="trending.html">Trending</a></h3>
+            <h3><a href="physical.html">Physical</a></h3>
             <h3><a href="contactus.html">Contact Us</a></h3>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
@@ -72,6 +131,6 @@
                 </a>
             </div>
         </footer>
-    </div>    
+        </div>    
     </body>
 </html>

@@ -89,6 +89,14 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-flow:row;
+    margin: 1em;
+ }
+
 footer .social img {
     padding-top: 15px;
     color: var(--paragraph-color-on-color);
@@ -121,7 +129,7 @@ p {
     grid-row-start: 5;
     grid-row-end: 8;
 }
-.button-box {
+#button-box {
     text-align: center;
     margin-top: 50px;
 }
@@ -146,6 +154,9 @@ p {
 }
 #hero-img {
     width: 100%;
+}
+#hero-img2 {
+    width: 85%;
 }
 main {
     display: grid;
@@ -278,6 +289,11 @@ nav a:hover {
 .icon {
     width: 80px;
     padding-top: 10px;
+}
+#contact {
+    color: solid black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .home-title {
     color: var(--paragraph-color-on-color);
