@@ -43,7 +43,7 @@ img {
 }
 h1, h2, h3, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    color: var(--headline-color-on-color);
 }
 h4 {
     font-family: var(--heading-font);
@@ -280,8 +280,13 @@ nav a:hover {
     padding-top: 10px;
 }
 .home-title {
-    color: var(--nav-link-color);
+    color: var(--paragraph-color-on-color);
     font-size: 2em;
+    margin-top: 10px;
+}
+.home-title2 {
+    color: var(--headline-color-on-color);
+    font-size: 1em;
     margin-top: 10px;
 }
 .sm-home {
