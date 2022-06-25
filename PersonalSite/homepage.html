@@ -3,62 +3,121 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Raft City Rentals | Dry Oar Boating | Home</title>
+        <title>Optimal Health | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/personalStyle.css">
     </head>
     <body>
         <div id="content">
         <header>
             <a href="index.html" id="logo_link">
-                <img class="logo" src = "images/logo.png" alt="Dry Oar Logo">
+                <img class="logo" src = "images/logoHealth.png" alt="Health Logo">
             </a>
             <nav>
                 <a href="homepage.html">Home</a>
-                <a href="subpage.html">Trending</a>
-                <a href="subpage.html">Physical</a>
-                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="trending.html">Trending</a>
+                <a href="physical.html">Physical</a>
+                <a href="site-plan.html">Site Plan</a>
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
         <div id="hero">
             <div id="hero-box">
-                <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
+                <img id="hero-img" src="images/mental.jpg" alt="Mental">
             </div>
             <section id="hero-msg">
-                <h1 class="home-title">Have An Adventure</h1>
-                <h4 class="home-title">Make Memories with Dry Oar </h4>
+                <h1 class="home-title"> A healthy mind in a healthy body</h1>
+                <h4 class="home-title">This is the simple truth behind the well-known saying. And it could not be more accurate. Our mental health is just as important as our physical health, and when one suffers, the other usually does too. That's why it's important to take care of both our bodies and our minds.</h4>
                 <div class='button-box'>
-                    <a class='book' href="rates.html">Book Now</a>
+                    <a href="homepage.html">Read More</a>
                 </div>
             </section>
         </div>
         <main class="container">
-            <section class="rivers-card">
-                <img class="card-img" src="images/rivers.jpg" alt="river in forest">
-                <img class="icon" src="images/river_icon.png" alt="river icon">
-                <h2>Rivers</h2>
-            </section>
-            <section class="camping-card">
-                <img class="card-img" src="images/camping.jpg" alt="tent in mountains">
-                <img class="icon" src="images/fire_icon.png" alt="fire icon">
-                <h2>Camping</h2>
-            </section>
-            <section class="rapids-card">
-                <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-                <img class="icon" src="images/oars.png" alt="oars icon">
-                <h2>Rapids</h2>
-            </section>
-            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-            <section class="msg">
-                <h2>More Than Just The Thrill</h2>
-                <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-                <a class='join' href="rivers.html">Join Us</a>
-            </section>
+            <div class="card">
+                <div class="card__header">
+                <img src="images/physical2.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                <span class="tag tag-blue">Physical</span>
+                <h4>Physical</h4>
+                <p>Physical health is the most obvious type of health. This is the health of the body and includes things like exercise, nutrition, and rest. Physical health is important because it helps the body to function properly and to resist disease.</p>
+                </div>
+                <div class="card__footer">
+                <div class="user">
+                    <img src="images/colin.JPG" width="50" alt="user__image" class="user__image">
+                    <div class="user__info">
+                    <h5>Colin Dye</h5>
+                    <small>2h ago</small>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__header">
+                <img src="images/mental.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                <span class="tag tag-brown">Mental</span>
+                <h4>Mental/Emotional</h4>
+                <p>This includes things like stress management, self-esteem, and coping with life's challenges. Mental health is important because it affects how we think, feel, and behave.</p>
+                </div>
+                <div class="card__footer">
+                <div class="user">
+                    <img src="images/colin.JPG" width="50" alt="user__image" class="user__image">
+                    <div class="user__info">
+                    <h5>Colin Dye</h5>
+                    <small>Yesterday</small>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__header">
+                <img src="images/social.jpg" alt="card__image" class="card__image" width="600">
+                </div>
+                <div class="card__body">
+                <span class="tag tag-red">Social</span>
+                <h4>Social</h4>
+                <p>Social health is the health of the relationships. This includes things like communication, teamwork, and conflict resolution. Social health is important because it affects how we think, feel, and behave.</p>
+                </div>
+                <div class="card__footer">
+                <div class="user">
+                    <img src="images/colin.JPG" width="50" alt="user__image" class="user__image">
+                    <div class="user__info">
+                    <h5>Colin Dye</h5>
+                    <small>2d ago</small>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                  </li>
+                  <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                  </li>
+                  <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                  </li>
+                  <li class="button">
+                  <button type="submit">Send your message</button>
+                  </li>
+                </ul>
+            </form>
+        </div>
         </main>
         <footer>
-            <h3>Dry Oar &copy; 2022 - Colin Dye</h3>
-            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3>Optimal Health &copy; 2022 - Colin Dye</h3>
+            <h3><a href="homepage.html">Home</a></h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="trending.html">Trending</a></h3>
+            <h3><a href="physical.html">Physical</a></h3>
             <h3><a href="contactus.html">Contact Us</a></h3>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
